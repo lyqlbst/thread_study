@@ -1,6 +1,6 @@
 package thread_name;
 
-public class MyMain {
+class MyMain {
 
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
