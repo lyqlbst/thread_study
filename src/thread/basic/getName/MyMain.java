@@ -4,7 +4,7 @@ class MyMain {
 
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
-//        myThread.start();
+//        myThread.extends_Thread();
         Thread t = new Thread(myThread);
         t.setName("t");
         t.start();
