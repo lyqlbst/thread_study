@@ -1,15 +1,16 @@
-package thread.concurrency.synchronized_part.variable_in_method;
+package thread.concurrency.synchronized_method_part.instance_variable;
 
 /**
- *方法中的变量不存在非线程安全问题，永远都是线程安全的
+ * 如果有多个线程共同访问1个对象中的实例变量，则有可能出现“非线程安全”问题
  */
 class MyMain {
 
     public static void main(String[] args) {
         HasSelfPrivateNum numRef = new HasSelfPrivateNum();
         ThreadA threadA = new ThreadA(numRef);
-        threadA.start();
         ThreadB threadB = new ThreadB(numRef);
+//        threadA.setPriority(10);
+        threadA.start();
         threadB.start();
     }
 }

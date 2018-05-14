@@ -1,4 +1,4 @@
-package thread.concurrency.synchronized_part.variable_in_method;
+package thread.concurrency.synchronized_method_part.variable_in_method;
 
 class ThreadA extends Thread {
     private HasSelfPrivateNum numRef;
