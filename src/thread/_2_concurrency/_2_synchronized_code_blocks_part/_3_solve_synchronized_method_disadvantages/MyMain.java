@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.solve_synchronized_method_disadvantages;
+package thread._2_concurrency._2_synchronized_code_blocks_part._3_solve_synchronized_method_disadvantages;
 
 /**
  * 通过实验可以得知，当一个线程访问object的一个synchronized同步代码块时，另一个线程仍然可以访问该

@@ -1,4 +1,4 @@
-package thread._2_concurrency._1_synchronized_method_part._6_reentrant._1_rentrant;
+package thread._2_concurrency._1_synchronized_method_part._6_reentrant._1_reentrant;
 
 /**
  * “可重入锁”的概念是：自己可以再次获取自己的内部锁。

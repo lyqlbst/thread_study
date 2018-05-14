@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.synchronized_method_disadvantages;
+package thread._2_concurrency._2_synchronized_code_blocks_part._1_synchronized_method_disadvantages;
 
 /**
  * 使用synchronized关键字来声明方法 synchronized void doLongTimeTask() 时从运行时间上来看，弊端很明显，

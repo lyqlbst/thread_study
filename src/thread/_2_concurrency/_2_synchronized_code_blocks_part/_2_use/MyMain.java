@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.use;
+package thread._2_concurrency._2_synchronized_code_blocks_part._2_use;
 
 /**
  * 当两个并发线程访问同一个对象object中的synchronized(this)同步代码块时，一段时间内只能有一个线程被执行，

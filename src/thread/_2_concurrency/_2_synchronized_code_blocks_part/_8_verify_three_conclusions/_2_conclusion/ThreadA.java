@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.verify_three_conclusions.conclusion_2;
+package thread._2_concurrency._2_synchronized_code_blocks_part._8_verify_three_conclusions._2_conclusion;
 
 class ThreadA extends Thread {
     private Service service;

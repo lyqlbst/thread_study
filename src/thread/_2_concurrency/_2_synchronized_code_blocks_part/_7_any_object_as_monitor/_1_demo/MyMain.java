@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.any_object_as_monitor.demo_1;
+package thread._2_concurrency._2_synchronized_code_blocks_part._7_any_object_as_monitor._1_demo;
 
 /**
  * 锁非this对象具有一定的优点，如果在一个类中有很多个synchronized方法，这时虽然能实现同步，

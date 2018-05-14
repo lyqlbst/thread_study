@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.verify_three_conclusions.conclusion_3;
+package thread._2_concurrency._2_synchronized_code_blocks_part._8_verify_three_conclusions._3_conclusion;
 
 /**
  * 运行结果是同步的。

@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.any_object_as_monitor.demo_1;
+package thread._2_concurrency._2_synchronized_code_blocks_part._7_any_object_as_monitor._1_demo;
 
 class ThreadB extends Thread {
     private Service service;

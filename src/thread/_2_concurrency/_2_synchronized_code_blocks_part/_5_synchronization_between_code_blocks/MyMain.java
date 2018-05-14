@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.synchronization_between_code_blocks;
+package thread._2_concurrency._2_synchronized_code_blocks_part._5_synchronization_between_code_blocks;
 
 /**
  * 在使用同步synchronized(this)代码块时需要注意的是，当一个线程访问object的一个synchronized(this)同步代码块时，

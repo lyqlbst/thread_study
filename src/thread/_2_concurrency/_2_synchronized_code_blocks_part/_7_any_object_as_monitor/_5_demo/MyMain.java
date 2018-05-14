@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.any_object_as_monitor.demo_5;
+package thread._2_concurrency._2_synchronized_code_blocks_part._7_any_object_as_monitor._5_demo;
 
 /**
  * “脏读”出现了。出现的原因是两个线程以异步的方式返回list参数的size()大小。解决办法就是“同步化”。

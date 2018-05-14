@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.solve_synchronized_method_disadvantages;
+package thread._2_concurrency._2_synchronized_code_blocks_part._3_solve_synchronized_method_disadvantages;
 
 class MyThread2 extends Thread {
     private Task task;

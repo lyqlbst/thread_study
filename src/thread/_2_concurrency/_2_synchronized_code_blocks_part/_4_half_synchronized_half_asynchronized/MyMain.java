@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.half_synchronized_half_asynchronized;
+package thread._2_concurrency._2_synchronized_code_blocks_part._4_half_synchronized_half_asynchronized;
 
 /**
  * 不在synchronized块中就是一步执行，在synchronized块中就是同步执行。

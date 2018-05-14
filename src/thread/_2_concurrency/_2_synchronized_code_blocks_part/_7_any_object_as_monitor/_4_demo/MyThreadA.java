@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.any_object_as_monitor.demo_4;
+package thread._2_concurrency._2_synchronized_code_blocks_part._7_any_object_as_monitor._4_demo;
 
 /**
  * 多个线程调用同一个方法是随机的。

@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.any_object_as_monitor.demo2;
+package thread._2_concurrency._2_synchronized_code_blocks_part._7_any_object_as_monitor._2_demo;
 
 /**
  * 可见，使用“synchronized(非this对象x)同步代码块”格式进行同步操作时，对象监视器必须是同一个对象，

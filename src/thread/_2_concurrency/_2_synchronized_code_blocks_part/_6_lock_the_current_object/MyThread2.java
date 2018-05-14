@@ -1,4 +1,4 @@
-package thread._2_concurrency._2_synchronized_code_blocks_part.lock_the_current_object;
+package thread._2_concurrency._2_synchronized_code_blocks_part._6_lock_the_current_object;
 
 class MyThread2 extends Thread {
     private Task task;
