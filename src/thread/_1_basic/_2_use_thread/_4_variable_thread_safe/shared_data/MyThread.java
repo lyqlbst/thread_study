@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._4_variable_thread_safe.shared_data;
+package thread._1_basic._2_use_thread._4_variable_thread_safe.shared_data;
 
 class MyThread extends Thread {
     private int count = 5;

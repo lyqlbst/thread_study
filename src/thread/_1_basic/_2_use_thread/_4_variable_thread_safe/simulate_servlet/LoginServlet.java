@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._4_variable_thread_safe.simulate_servlet;
+package thread._1_basic._2_use_thread._4_variable_thread_safe.simulate_servlet;
 
 /**
  * 本类模拟成一个Servlet组件

@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._3_synchrony;
+package thread._1_basic._2_use_thread._3_synchrony;
 
 /**
  * 异步运行的效果，extends_Thread()方法通知“线程规划器”此线程已经准备就绪，等待调用线程对象的run()方法。

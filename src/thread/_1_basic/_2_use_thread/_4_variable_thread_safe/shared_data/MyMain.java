@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._4_variable_thread_safe.shared_data;
+package thread._1_basic._2_use_thread._4_variable_thread_safe.shared_data;
 
 /**
  * 共享变量，但是会产生非线程安全问题，在run方法前加synchronized关键字，

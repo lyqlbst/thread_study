@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._2_implements_Runnable;
+package thread._1_basic._2_use_thread._2_implements_Runnable;
 
 class MyMain {
 

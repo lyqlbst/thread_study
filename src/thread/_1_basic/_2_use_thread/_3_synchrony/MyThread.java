@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._3_synchrony;
+package thread._1_basic._2_use_thread._3_synchrony;
 
 class MyThread extends Thread {
     @Override

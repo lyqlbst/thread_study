@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._4_variable_thread_safe.non_shared_data;
+package thread._1_basic._2_use_thread._4_variable_thread_safe.non_shared_data;
 
 /**
  * 非共享数据

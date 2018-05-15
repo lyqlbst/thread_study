@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._1_extends_Thread;
+package thread._1_basic._2_use_thread._1_extends_Thread;
 
 class MyThread extends Thread {
     @Override

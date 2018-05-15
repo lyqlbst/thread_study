@@ -1,4 +1,4 @@
-package thread._1_basic._1_use_thread._1_extends_Thread;
+package thread._1_basic._2_use_thread._1_extends_Thread;
 
 /**
  * 使用多线程技术时，代码的运行结果与代码执行顺序或是调用顺序无关
