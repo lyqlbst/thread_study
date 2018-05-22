@@ -1,0 +1,1 @@
+    使用类InheritableThreadLocal可以在子线程中取得父线程继承下来的值。

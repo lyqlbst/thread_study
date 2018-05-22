@@ -1,0 +1,42 @@
+    而执行_6_包中的MyMain.java文件后就会出现一些不同的运行结果。
+
+    先来看看有可能出现的运行结果A，如下：
+        ThreadA run begin=1526957773936
+        ThreadA run end=1526957774436
+        main end=1526957774436
+        ThreadB run begin=1526957774436
+        ThreadB run end=1526957774936
+    运行结果的解释：
+    1)b.join(500)方法先抢到B锁，然后将B锁进行释放；
+    2)ThreadA抢到锁，打印 ThreadA begin 并且 sleep(500)；
+    3)ThreadA打印 ThreadA end，并释放锁；
+    4)这时join(500)和ThreadB争抢锁，而join(500)再次抢到锁，发现时间已过，释放锁后打印 main end；
+    5)ThreadB签到锁打印ThreadB end。
+    6)0.5秒之后再打印ThreadB end。
+
+    再来看看有可能出现的运行结果B，如下：
+        ThreadA run begin=1526957773936
+        ThreadA run end=1526957774436
+        ThreadB run begin=1526957774436
+        ThreadB run end=1526957774936
+        main end=1526957774936
+    运行结果的解释：
+    1)b.join(500)方法先抢到B锁，然后将B锁进行释放；
+    2)ThreadA抢到锁，打印 ThreadA begin 并且 sleep(500)；
+    3)ThreadA打印 ThreadA end，并释放锁；
+    4)这时join(500)和ThreadB争抢锁，而ThreadB抢到锁后执行sleep(500)后释放锁；
+    5)main end 在最后输出。
+
+    再来看看有可能出现的运行结果C，如下：
+        ThreadA run begin=1526957773936
+        ThreadA run end=1526957774436
+        ThreadB run begin=1526957774436
+        main end=1526957774436
+        ThreadB run end=1526957774936
+    1)b.join(500)方法先抢到B锁，然后将B锁进行释放；
+    2)ThreadA抢到锁，打印 ThreadA begin 并且 sleep(500)；
+    3)ThreadA打印 ThreadA end，并释放锁；
+    4)这时join(500)和ThreadB争抢锁，而join(500)再次抢到锁，发现时间已过，释放锁；
+    5)B签到锁打印 ThreadB begin；
+    6)这时 main end 也异步输出；
+    7)打印ThreadB end。

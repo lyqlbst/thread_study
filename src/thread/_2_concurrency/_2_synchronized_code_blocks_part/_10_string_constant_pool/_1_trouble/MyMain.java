@@ -6,7 +6,7 @@ package thread._2_concurrency._2_synchronized_code_blocks_part._10_string_consta
  * 这就是String常量池锁带来的问题。因此在大多数情况下，同步synchronized代码块都不适用String作为所对象，
  * 而改用其他，比如 new Object()实例化一个Object对象，但它并不放入缓存中。
  */
-public class MyMain {
+class MyMain {
 
     public static void main(String[] args) {
         Service service = new Service();
