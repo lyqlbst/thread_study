@@ -1,0 +1,2 @@
+    方法schedule和方法scheduleAtFixedRate都会按顺序执行，所以不要考虑非线程安全的情况。
+    方法schedule和scheduleAtFixedRate主要的区别只在于有没有追赶特性。

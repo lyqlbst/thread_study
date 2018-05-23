@@ -1,0 +1,2 @@
+    方法schedule(TimerTask task, Date firstTime, long period)的作用是在指定的日期之后按指定的间隔周期，
+无线循环地执行某一任务。

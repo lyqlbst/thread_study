@@ -1,0 +1,1 @@
+    方法schedule(TimerTask task, Date time)的作用是在指定的日期执行一次某一任务。
