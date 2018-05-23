@@ -1,0 +1,4 @@
+    本包将要介绍使用Java5中的Lock对象也能实现同步的效果，而且在使用上更加方便。
+    本部分需要着重掌握如下2个知识点：
+    □ReentrantLock类的使用。
+    □ReentrantReadWriteLock类的使用。
